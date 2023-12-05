@@ -1,0 +1,35 @@
+{
+  "name": "nestjs-ws-api",
+  "version": "1.0.9",
+  "description": "NestJS WS Rest api adapter",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/demon24ru/nestjs-ws-api.git"
+  },
+  "author": "@demon24ru <bagzon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demon24ru/nestjs-ws-api/issues"
+  },
+  "homepage": "https://github.com/demon24ru/nestjs-ws-api#readme",
+  "dependencies": {
+    "@nestjs/common": "^9.4.3",
+    "rxjs": "^7.8.1",
+    "@nestjs/platform-express": "^9.4.3",
+    "reflect-metadata": "^0.1.13",
+    "@nestjs/platform-socket.io": "^9.4.3",
+    "socket.io": "^4.7.2",
+    "@nestjs/websockets": "^9.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "rimraf": "^5.0.5",
+    "typescript": "^4.8.4"
+  }
+}
