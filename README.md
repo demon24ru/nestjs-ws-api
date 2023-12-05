@@ -1,4 +1,4 @@
-# @drozd/nestjs-ws-api
+# nestjs-ws-api
 
 1) Turns a normal REST api into a websocket.
 2) Accelerates api by 10 times due to one open ws channel.
