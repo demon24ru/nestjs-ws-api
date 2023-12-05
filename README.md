@@ -5,11 +5,11 @@
 3) Controllers also remain native swagger REST API.
 
 ## Setup
-```npm install github.com/demon24ru/nestjs-ws-api```
+```npm install git://github.com/demon24ru/nestjs-ws-api.git```
 
 or
 
-```yarn add github.com/demon24ru/nestjs-ws-api```
+```yarn add git://github.com/demon24ru/nestjs-ws-api.git```
 
 then inside your `app.module.ts` add config:
 
