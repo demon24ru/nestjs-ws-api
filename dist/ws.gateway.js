@@ -74,6 +74,7 @@ let WsGateway = WsGateway_1 = class WsGateway {
                     }
                     else {
                         status = common_1.HttpStatus.INTERNAL_SERVER_ERROR;
+                        // @ts-ignore
                         body = { error: e || (e === null || e === void 0 ? void 0 : e.message) };
                     }
                     response(this.response ? new this.response(status, body) : { status, body });

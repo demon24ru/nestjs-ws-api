@@ -88,6 +88,7 @@ export class WsGateway implements OnGatewayConnection, OnGatewayInit {
               body = result.body
             } else {
               status = HttpStatus.INTERNAL_SERVER_ERROR
+              // @ts-ignore
               body = {error: e || e?.message}
             }
 
